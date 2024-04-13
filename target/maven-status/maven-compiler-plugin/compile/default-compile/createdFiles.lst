@@ -1,0 +1,10 @@
+Pages\MainPage.class
+Pages\AllProductsPage.class
+Pages\LoginPageInvalid.class
+Pages\SignUpPage.class
+Base\SignInDB.class
+Base\TestBase.class
+Pages\ContactUsPage.class
+Pages\AccountCreatedPage.class
+Pages\SignUpWithExistingEmail.class
+Pages\LoginPageValid.class

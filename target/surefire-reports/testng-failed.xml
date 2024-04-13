@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.SignUpWithExistingEmailTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="signup_loginPageIsExist"/>
+        </methods>
+      </class> <!-- TestCases.SignUpWithExistingEmailTest -->
+      <class name="TestCases.AccountCreatedPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AccountCreated"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestCases.AccountCreatedPageTest -->
+      <class name="TestCases.ContactUsPageTest">
+        <methods>
+          <include name="ContactUs"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.ContactUsPageTest -->
+      <class name="TestCases.SignUpPageTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="signup_loginPage"/>
+        </methods>
+      </class> <!-- TestCases.SignUpPageTest -->
+      <class name="TestCases.AllProductsPageTest">
+        <methods>
+          <include name="AllProducts"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- TestCases.AllProductsPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,12 @@
+TestCases\LoginPageTestInvalid.class
+TestCases\AccountCreatedPageTest.class
+TestCases\AllProductsPageTest.class
+TestCases\MainPageTest.class
+TestCases\TestDataProvider.class
+TestCases\SignUpPageTest.class
+TestCases\LoginPageTestValid.class
+TestCases\SignUpWithExistingEmailTest.class
+TestCases\SignUpDB.class
+TestCases\ContactUsPageTest.class
+TestCases\OrangeHRMTestProvider.class
+TestCases\Config.class
